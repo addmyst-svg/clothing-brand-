@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-indigo: #1e2a44;
+    --color-indigo-dark: #121b2d;
+    --color-indigo-light: #2c3e64;
+    --color-madder: #b33927;
+    --color-madder-dark: #8c2718;
+    --color-madder-light: #d6503c;
+    --color-turmeric: #d9822b;
+    --color-turmeric-light: #f5a65b;
+    --color-ivory: #faf7f2;
+    --color-ivory-warm: #f3ece1;
+    --color-ivory-dark: #e8ded0;
+    --color-charcoal: #1c1917;
+    --color-charcoal-muted: #57534e;
+    --color-border-warm: #e7ddcf;
+  }
+}
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-devanagari: "Noto Serif Devanagari", "Tiro Devanagari Hindi", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-brand-indigo: #1e2a44;
+  --color-brand-indigo-dark: #121b2d;
+  --color-brand-indigo-light: #2d3e64;
+  --color-brand-madder: #b33927;
+  --color-brand-madder-dark: #8c2718;
+  --color-brand-turmeric: #d9822b;
+  --color-brand-turmeric-light: #f7a24f;
+  --color-brand-ivory: #faf7f2;
+  --color-brand-ivory-warm: #f3ece1;
+  --color-brand-charcoal: #1c1917;
+}
+
+/* Custom craftsmanship utilities */
+.font-devanagari {
+  font-family: 'Noto Serif Devanagari', 'Tiro Devanagari Hindi', serif;
+}
+
+.font-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.stitch-line-h {
+  background-image: repeating-linear-gradient(90deg, #d9822b, #d9822b 6px, transparent 6px, transparent 12px);
+  height: 2px;
+}
+
+.stitch-line-madder {
+  background-image: repeating-linear-gradient(90deg, #b33927, #b33927 6px, transparent 6px, transparent 12px);
+  height: 2px;
+}
+
+.stitch-line-indigo {
+  background-image: repeating-linear-gradient(90deg, #1e2a44, #1e2a44 6px, transparent 6px, transparent 12px);
+  height: 2px;
+}
+
+.pattern-khadi {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#ded2bf 0.8px, transparent 0.8px), radial-gradient(#ded2bf 0.8px, #faf7f2 0.8px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.mirror-work-disc {
+  box-shadow: 0 0 0 1.5px #d9822b, 0 1px 3px rgba(0,0,0,0.18), inset 0 0 4px rgba(255,255,255,0.8);
+  background: radial-gradient(circle at 35% 35%, #ffffff 0%, #e2e8f0 55%, #cbd5e1 100%);
+}

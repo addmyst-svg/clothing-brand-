@@ -1,0 +1,6 @@
+{
+  "name": "श्री Kala — Indian Heritage Fashion & Craft Revival",
+  "description": "श्री Kala (Shri Kala) revives disappearing traditional handicrafts like Sujini, Madhubani, Khatwa, and Gota-patti into contemporary, affordable fashion crafted by rural women artisans in Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
